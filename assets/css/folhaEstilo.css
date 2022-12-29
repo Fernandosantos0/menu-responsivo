@@ -1,0 +1,119 @@
+/*
+ * Google Fonts - https://fonts.google.com/
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* Fonte Roboto */
+
+:root { /* Variáveis css */
+    font-size: 62.5%;
+}
+
+* { /* Mini rest */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style-position: inside;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1.6em;
+}
+
+header#cabecalho {
+    background-color: hwb(0 6% 94%);
+    color: hwb(0 100% 0%);
+    padding-block: 1.5em;
+}
+
+header#cabecalho h1 a {
+    color: hwb(240 22% 42%);
+    font-size: 1.2em;
+}
+
+header#cabecalho a {
+    color: #fff;
+}
+
+#container-mobile {
+    width: 100%;
+    padding: 1.5em 0em;
+    display: none;
+}
+
+#icone-mobile {
+    display: none;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 1.0em;
+}
+
+.flex-mobile {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-desktop ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2.1em;
+}
+
+#menu-desktop ul a {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+button.btnCad,
+button.btnCad-mobile {
+    padding: .5em 1.0em;
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+    background-color: hwb(150 25% 25%);
+    cursor: pointer;
+    letter-spacing: .1em;
+    color: #fff;
+    font-size: 1.1em;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+button.btnCad:hover,
+button.btnCad-mobile:hover {
+    background-color: hwb(150 29% 31%);
+}
+
+#menu-mobile {
+    margin-bottom: 1.5em;
+}
+
+#menu-mobile ul {
+    list-style-type: none;
+}
+
+#menu-mobile li {
+    margin-block: 1.5em;
+}
+
+#menu-mobile a {
+    font-size: 1.3em;
+}

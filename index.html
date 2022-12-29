@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- html5shiv.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu responsivo ☁️</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <!-- css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"> <!-- normalize.css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Load Babel -->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body onresize="telaResize()">
+        
+        <header id="cabecalho">
+            <div class="container flex">
+                <h1>
+                    <a href="index.html" 
+                    rel="next" target="_self" 
+                    hreflang="pt-br">
+                        Logo
+                    </a>
+                </h1>
+
+                <div id="icone-mobile">
+                    <img src="assets/img/menu_white_36dp.svg" alt="Ìcone para abrir o menu mobile" id="img-nav">
+                </div> <!-- icone-mobile -->
+
+                <nav id="menu-desktop">
+                    <ul>
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">Produtos</a>
+                        </li>
+
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">Serviços</a>
+                        </li>
+
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">FQA</a>
+                        </li>
+
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">Contato</a>
+                        </li>
+                    </ul>
+                </nav> <!-- menu-desktop -->
+
+                <button type="button" class="btnCad">
+                    Cadastrar
+                </button> <!-- btnCard -->
+            </div>
+
+            <div id="container-mobile" class="flex-mobile">
+                <div id="menu-mobile">
+                    <ul>
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">Produtos</a>
+                        </li>
+
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">Serviços</a>
+                        </li>
+
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">FQA</a>
+                        </li>
+
+                        <li>
+                            <a href="#" rel="next" target="_self" hreflang="pt-br">Contato</a>
+                        </li>
+                    </ul>
+                </div> <!-- menu-mobile -->
+    
+                <button type="button" class="btnCad-mobile">
+                    Cadastrar
+                </button>
+            </div> <!-- container-mobile -->
+        </header> <!-- cabecalho -->
+
+        <!-- javascript -->
+        <script type="text/babel" src="assets/js/script.js"></script>
+    </body>
+</html>
