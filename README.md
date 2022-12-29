@@ -10,5 +10,5 @@
     <li>CSS media query</li>
 </a>
 
-<br><br>
+<br>
 <p>Clique <a href="https://fernandosantos0.github.io/menu-responsivo/" rel="next" target="_self" hreflang="pt-br">aqui</a> para executar o projeto!</p>
